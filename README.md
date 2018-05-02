@@ -1,5 +1,5 @@
 # Examples
-In this repository there is an example of configuration that is delivered
+In this repository there are examples of configuration that is delivered
 directly with the package (local-configuration) and configuration
 that is stored remotely (remote-configuration) in [Github repository](https://github.com/composer-synchronizer/packages).
 
@@ -9,10 +9,11 @@ The configuration is mostly the same. Different could be in the following
 - Configuration sections => depends on the project type
 
 **Local configuration**
-Local package has the configuration stored in the composer-synchronizer directory.
+In this example configuration is stored in the composer-synchronizer directory directly in the package repository.
 From this directory, the configuration is copied into the target project directory.
-The directories like src and tests are just dummy repositories.
+Directories like src and tests are just dummy directories.
 
 **Remote configuration**
+
 Is stored in the following structure
-`<package name>/<version>/<versioned project type>` => `some/package/1.0/nette2`
+`<package name>/<version>/<versioned project type>` => `some/package/1.0/nette2` and is downloaded if the local configuration wasn't found.
