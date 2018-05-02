@@ -1,0 +1,12 @@
+{
+    "resources": {
+        "composer-synchronizer/extension.neon": "%configDir%/some/package/extension.neon",
+        "composer-synchronizer/webtemp/": "%wwwDir/webtemp/"
+    },
+    "gitignore": [
+        "%wwwDir/webtemp/"
+    ],
+    "includes": [
+        "some/package/extension.neon"
+    ]
+}
