@@ -9,6 +9,7 @@ The configuration is mostly the same. Different could be in the following
 - Configuration sections => depends on the project type
 
 **Local configuration**
+
 In this example configuration is stored in the composer-synchronizer directory directly in the package repository.
 From this directory, the configuration is copied into the target project directory.
 Directories like src and tests are just dummy directories.
