@@ -8,7 +8,7 @@
                     "composer-synchronizer/webtemp/": "%wwwDir/webtemp/"
                 },
                 "gitignore": [
-                    "%wwwDir/webtemp/"
+                    "%wwwDir%/webtemp/"
                 ],
                 "includes": [
                     "some/package/extension.neon"
